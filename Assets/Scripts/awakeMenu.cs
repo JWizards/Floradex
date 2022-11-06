@@ -33,18 +33,27 @@ public class awakeMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(flag){
+        bool should_run = gameObject.transform.parent.gameObject.GetComponent<Canvas>().enabled;
+        if(!should_run){
+            for(int i =0; i < n; i++)
+                popIn[i].GetComponent<Animator>().SetBool("popnow", false);
+            
+            start_time = Time.time;
+            flag = true;
+        }
+
+        if(flag && should_run){
             float elapsed = Time.time - start_time;
             Debug.Log(intervs[1]);
             if(elapsed < intervs.Sum()){
                 for(int i = 0; i < n; i ++){
                     if (elapsed > (intervs.Take(i+1)).Sum() ){
-                        popIn[i].SetActive(true);
+                        popIn[i].GetComponent<Animator>().SetBool("popnow", true);
                     }
                 }
             } else {
                 for(int i = 0; i < n; i ++)
-                    popIn[i].SetActive(true);
+                    popIn[i].GetComponent<Animator>().SetBool("popnow", true);
                 flag = false;
             }
         }
