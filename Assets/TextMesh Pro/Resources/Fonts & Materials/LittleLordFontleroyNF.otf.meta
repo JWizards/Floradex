@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8cee2f2326110604b95a3aea57ca994b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Little Lord Fontleroy NF
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 564766986cfd7cd428ab2e758fcf15d7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
