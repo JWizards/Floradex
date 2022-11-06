@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class goCanvas : MonoBehaviour
 {
-    Canvas[] canvi;
-
-    void Start(){
-        Canvas[] canvi = (Canvas[]) GameObject.FindObjectsOfType(typeof(Canvas));       
-    }
     public void go(){
+
+        Canvas[] canvi = (Canvas[]) GameObject.FindObjectsOfType(typeof(Canvas));  
         foreach(Canvas c in canvi){
             c.GetComponent<Canvas>().enabled = false;
         }
