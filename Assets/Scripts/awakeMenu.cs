@@ -44,7 +44,6 @@ public class awakeMenu : MonoBehaviour
 
         if(flag && should_run){
             float elapsed = Time.time - start_time;
-            Debug.Log(intervs[1]);
             if(elapsed < intervs.Sum()){
                 for(int i = 0; i < n; i ++){
                     if (elapsed > (intervs.Take(i+1)).Sum() ){
