@@ -5,6 +5,7 @@ public class GameData
 
     public string[] names;
     public string[] types;
+    public int[] level;
     public int[,] water_days;
     public int[] xp;
 
