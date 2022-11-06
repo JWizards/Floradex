@@ -4034,6 +4034,7 @@ GameObject:
   - component: {fileID: 276986273}
   - component: {fileID: 276986272}
   - component: {fileID: 276986275}
+  - component: {fileID: 276986276}
   m_Layer: 5
   m_Name: Plant Select 3p
   m_TagString: Untagged
@@ -4122,7 +4123,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276986270}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -4148,6 +4149,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc0c276a78c24d4a9be814dbdfcd725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &276986276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276986270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad0d364d2a37a6478d11832fe25f3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameData:
+    no_plants: 0
+    viewing: 0
+    names: []
+    types: []
+    xp: 
 --- !u!1 &285533555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10890,7 +10909,7 @@ Animator:
   m_GameObject: {fileID: 948856425}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ef4a7a6398327ff46aa074af4676b2db, type: 2}
+  m_Controller: {fileID: 9100000, guid: 11264dce18571334f8f2d2ac10d4f194, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -19417,7 +19436,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757488067}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
