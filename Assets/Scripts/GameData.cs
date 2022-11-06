@@ -2,6 +2,7 @@
 public class GameData
 {
     public int no_plants = 0;
+    public int viewing = 0;
 
     public string[] names;
     public string[] types;
