@@ -2621,6 +2621,7 @@ GameObject:
   - component: {fileID: 262736616}
   - component: {fileID: 262736615}
   - component: {fileID: 262736617}
+  - component: {fileID: 262736618}
   m_Layer: 0
   m_Name: Image (1)
   m_TagString: Untagged
@@ -2742,6 +2743,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 262736618}
+        m_TargetAssemblyTypeName: makeType, Assembly-CSharp
+        m_MethodName: writeType
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &262736618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262736613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b48e00b4c82a40a9e3a6d652a1e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: herb_2
 --- !u!1 &264317224
 GameObject:
   m_ObjectHideFlags: 0
@@ -2895,7 +2921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &276986271
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5152,6 +5178,7 @@ GameObject:
   - component: {fileID: 647892332}
   - component: {fileID: 647892331}
   - component: {fileID: 647892330}
+  - component: {fileID: 647892334}
   - component: {fileID: 647892333}
   m_Layer: 0
   m_Name: New Plant Info Herb
@@ -5259,6 +5286,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc0c276a78c24d4a9be814dbdfcd725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &647892334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647892328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad0d364d2a37a6478d11832fe25f3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameData:
+    no_plants: 0
+    names: []
+    types: []
+    xp: 
 --- !u!1 &711774779
 GameObject:
   m_ObjectHideFlags: 0
@@ -5826,6 +5870,7 @@ GameObject:
   - component: {fileID: 797020609}
   - component: {fileID: 797020608}
   - component: {fileID: 797020610}
+  - component: {fileID: 797020611}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -5947,6 +5992,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 797020611}
+        m_TargetAssemblyTypeName: makeType, Assembly-CSharp
+        m_MethodName: writeType
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &797020611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797020606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 241b48e00b4c82a40a9e3a6d652a1e49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: herb_1
 --- !u!1 &797465974
 GameObject:
   m_ObjectHideFlags: 0
@@ -6555,6 +6625,7 @@ GameObject:
   - component: {fileID: 872653747}
   - component: {fileID: 872653746}
   - component: {fileID: 872653749}
+  - component: {fileID: 872653750}
   m_Layer: 0
   m_Name: New Plant Info 1
   m_TagString: Untagged
@@ -6664,6 +6735,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fc0c276a78c24d4a9be814dbdfcd725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &872653750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872653744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad0d364d2a37a6478d11832fe25f3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameData:
+    no_plants: 0
+    names: []
+    types: []
+    xp: 
 --- !u!1 &884028607
 GameObject:
   m_ObjectHideFlags: 0
@@ -8689,7 +8777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1225259245
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8765,7 +8853,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225259244}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -11723,7 +11811,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1531569344
 RectTransform:
   m_ObjectHideFlags: 0
